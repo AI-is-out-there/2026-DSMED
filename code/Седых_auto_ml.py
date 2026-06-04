@@ -32,7 +32,6 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 
-
 # Фиксируем random_state, чтобы разбиение данных и обучение можно было повторить.
 RANDOM_STATE = 42
 DATA_PATH = Path("data/dispensarization_data_2026.csv")
